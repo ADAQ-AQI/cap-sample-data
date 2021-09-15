@@ -12,23 +12,25 @@ description: 'This reanalysis has been produced  by the Atmospheric Dispersion a
 
   Further information can be found at https://www.ukcleanair.org/storage/met-office-research/'
 authors:
-  firstname: Eleanor
-  surname: Smith
+- firstname{i}: Eleanor
+  surname{i}: Smith
+- firstname: .nan
+  surname: .nan
 bbox:
   north: 11.55
   south: -8.465
   east: -7.105
   west: 8.995
 chemical species:
-- (PM10)
-- (PM2.5)
-- (C5H8)
-- (CO)
-- (SO2)
-- (O3)
-- (NOx)
-- (NO2)
-- (NO)
+- PM10
+- PM2.5
+- C5H8
+- CO
+- SO2
+- O3
+- NOx
+- NO2
+- 'NO'
 observation level/model: Model Data
 data source: Air Quality in the Unified Model (AQUM)
 time range:
