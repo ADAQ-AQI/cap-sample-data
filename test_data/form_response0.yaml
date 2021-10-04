@@ -12,10 +12,8 @@ description: 'This reanalysis has been produced  by the Atmospheric Dispersion a
 
   Further information can be found at https://www.ukcleanair.org/storage/met-office-research/'
 authors:
-- firstname{i}: Eleanor
-  surname{i}: Smith
-- firstname: .nan
-  surname: .nan
+  firstname: Eleanor
+  surname: Smith
 bbox:
   north: 11.55
   south: -8.465
