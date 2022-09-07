@@ -9,18 +9,18 @@ authors = ["Rachel McInnes <rachel.mcinnes@metoffice.gov.uk>",
         "Benjamin Drummond <benjamin.drummond@metoffice.gov.uk>",
         "Eleanor Smith <eleanor.smith@metoffice.gov.uk>",
         "Chris R Bunney <chris.r.bunney@metoffice.gov.uk>",
-        "Corinne Bosley <corinne.bosley@metoffice.gov.uk>"]
+        "Corinne Bosley <corinne.bosley@metoffice.gov.uk>",
+        "Thomas Wilson <thomas.wilson@metoffice.gov.uk>"]
 
 license = "Met Office UK"
 readme = "README.md"
-python = "^3.6"
+python = ">=3.7"
 #homepage = "https://github.com/MartinThoma/infer_pyproject"
 repository = "https://github.com/ADAQ-AQI/cap-sample-data"
-#documentation = "https://github.com/MartinThoma/infer_pyproject"
+documentation = "https://github.com/ADAQ-AQI/cap-sample-data#readme"
 
 [build-system]
-
-requires = ["setuptools >= 48.0", "wheel"]
+requires = ["setuptools >= 48.0", "wheel", "versioneer"]
 build-backend = "setuptools.build_meta"
 
 
