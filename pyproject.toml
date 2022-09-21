@@ -1,5 +1,5 @@
 [project]
-name = "cap-sample-data"
+name = "cap_sample_data"
 version = "0.1.0"
 description = "This Python package provides test data for the MO Clean Air Project."
 authors = [{name="Rachel McInnes", email="rachel.mcinnes@metoffice.gov.uk"},

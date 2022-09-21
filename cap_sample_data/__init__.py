@@ -2,5 +2,5 @@
 
 import os
 
-# Root directory containing the iris sample data.
+# Root directory containing the Clean Air Project sample data.
 path = os.path.join(os.path.abspath(os.path.dirname(__file__)), "sample_data")
