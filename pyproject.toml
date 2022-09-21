@@ -11,7 +11,7 @@ authors = [{name="Rachel McInnes", email="rachel.mcinnes@metoffice.gov.uk"},
         {name="Chris R Bunney", email="chris.r.bunney@metoffice.gov.uk"},
         {name="Corinne Bosley", email="corinne.bosley@metoffice.gov.uk"},
         {name="Thomas Wilson", email="thomas.wilson@metoffice.gov.uk"}]
-#license = needs reviewing and merging
+license = {file = "LICENSE"}
 readme = "README.md"
 requires-python = ">=3.7"
 
