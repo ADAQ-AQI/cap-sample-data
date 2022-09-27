@@ -20,5 +20,5 @@ repository = "https://github.com/ADAQ-AQI/cap-sample-data"
 documentation = "https://github.com/ADAQ-AQI/cap-sample-data#readme"
 
 [build-system]
-requires = ["setuptools >= 48.0", "wheel"]
+requires = ["setuptools >= 48.0", "setuptools_scm[toml]>=6.2", "wheel"]
 build-backend = "setuptools.build_meta"
