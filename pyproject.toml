@@ -1,49 +1,24 @@
 [project]
-name = "cap-sample-data"
+name = "cap_sample_data"
 version = "0.1.0"
 description = "This Python package provides test data for the MO Clean Air Project."
-authors = ["Rachel McInnes <rachel.mcinnes@metoffice.gov.uk>",
-        "Noel Nelson <noel.nelson@metoffice.gov.uk>",
-        "Catherine Lucas <catherine.lucas@metoffice.gov.uk>",
-        "Barnaby Sherratt <barnaby.sherratt@metoffice.gov.uk>",
-        "Benjamin Drummond <benjamin.drummond@metoffice.gov.uk>",
-        "Eleanor Smith <eleanor.smith@metoffice.gov.uk>",
-        "Chris R Bunney <chris.r.bunney@metoffice.gov.uk>",
-        "Corinne Bosley <corinne.bosley@metoffice.gov.uk>"]
-
-license = "Met Office UK"
+authors = [{name="Rachel McInnes", email="rachel.mcinnes@metoffice.gov.uk"},
+        {name="Noel Nelson", email="noel.nelson@metoffice.gov.uk"},
+        {name="Catherine Lucas", email="catherine.lucas@metoffice.gov.uk"},
+        {name="Barnaby Sherratt", email="barnaby.sherratt@metoffice.gov.uk"},
+        {name="Benjamin Drummond", email="benjamin.drummond@metoffice.gov.uk"},
+        {name="Eleanor Smith", email="eleanor.smith@metoffice.gov.uk"},
+        {name="Chris R Bunney", email="chris.r.bunney@metoffice.gov.uk"},
+        {name="Corinne Bosley", email="corinne.bosley@metoffice.gov.uk"},
+        {name="Thomas Wilson", email="thomas.wilson@metoffice.gov.uk"}]
+license = {file = "LICENSE"}
 readme = "README.md"
-python = "^3.6"
-#homepage = "https://github.com/MartinThoma/infer_pyproject"
+requires-python = ">=3.7"
+
+[project.urls]
 repository = "https://github.com/ADAQ-AQI/cap-sample-data"
-#documentation = "https://github.com/MartinThoma/infer_pyproject"
+documentation = "https://github.com/ADAQ-AQI/cap-sample-data#readme"
 
 [build-system]
-
-requires = ["setuptools >= 48.0", "wheel"]
+requires = ["setuptools >= 48.0", "setuptools_scm[toml]>=6.2", "wheel"]
 build-backend = "setuptools.build_meta"
-
-
-# [tool.black]
-# line-length = 88
-# target_version = ['py36']
-# include = '\.pyi?$'
-# exclude = '''
-#
-# (
-#   /(
-#       \.eggs         # exclude a few common directories in the
-#     | \.git          # root of the project
-#     | \.hg
-#     | \.mypy_cache
-#     | \.tox
-#     | \.venv
-#     | _build
-#     | buck-out
-#     | build
-#     | dist
-#   )/
-#   | foo.py           # also separately exclude a file named foo.py in
-#                      # the root of the project
-# )
-# '''
