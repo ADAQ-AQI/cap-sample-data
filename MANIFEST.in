@@ -1,0 +1,8 @@
+
+include cap_sample_data/sample_data/* sample_data/*
+exclude build/* *.egg-info
+
+recursive-include cap_sample_data/sample_data/* sample_data/*
+recursive-exclude *.egg-info
+
+global-include *.nc, *.csv, *.yaml, *.xlsx, *.geojson, *.zip
