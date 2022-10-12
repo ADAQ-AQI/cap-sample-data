@@ -1,8 +1,29 @@
 
-include cap_sample_data/sample_data/* sample_data/*
-exclude build/* *.egg-info
+include cap_sample_data/sample_data/aircraft/*
+include cap_sample_data/sample_data/AURN/*
+include cap_sample_data/sample_data/metadata/*
+include cap_sample_data/sample_data/model/*
+include cap_sample_data/sample_data/model_full/*
+include cap_sample_data/sample_data/obs/*
+include cap_sample_data/sample_data/scalar/*
+include cap_sample_data/sample_data/shapefiles/*
+include cap_sample_data/sample_data/shapefilesFullZip/*
+include cap_sample_data/sample_data/test_data/*
+include cap_sample_data/sample_data/timeseries/*
+include sample_data/*
 
-recursive-include cap_sample_data/sample_data/* sample_data/*
+exclude build/*
+exclude *.egg-info
+
+recursive-include cap_sample_data/sample_data/*
+recursive-include sample_data/*
+
 recursive-exclude *.egg-info
+recursive-exclude __pycache__
 
-global-include *.nc, *.csv, *.yaml, *.xlsx, *.geojson, *.zip
+global-include *.nc
+global-include *.csv
+global-include *.yaml
+global-include *.xlsx
+global-include *.geojson
+global-include *.zip
